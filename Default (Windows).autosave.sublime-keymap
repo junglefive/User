@@ -1,0 +1,10 @@
+[
+	{ "keys": ["ctrl+alt+u"], "command": "upper_case" },
+
+	{ "keys": ["ctrl+alt+l"], "command": "lower_case" },
+
+    // { "keys": ["ctrl+shift+c"], "command": "color_pick" },
+
+    {"keys": ["alt+shift+f"], "command": "reindent"     },
+    // { "keys": ["ctrl+shift+h"], "command": "show_panel", "args": {"panel": "console", "toggle": true} },     
+]

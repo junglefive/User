@@ -1,0 +1,33 @@
+{
+    // The colors to highlight texts are specified by a list of theme scope names,
+    // and HighlightWords uses this list in circular order.
+    "colors_by_scope": [
+        "support",
+        "entity.name.class",
+        "support.parameter",
+        "support.deprecated",
+        "support",
+        "support.function"
+    ],
+    "whole_word": true,
+    "use_regex": true,
+    "ignore_case": true,
+    "draw_outlined": false, // true表示外边框高亮, false表示填充式高亮
+    // Keywords to be always highlighted, clear the list to disable it.
+    // "keyword" are literally matched, and "color" refers to theme scope names.
+    // "flag": 0 - regex, 1 - literal (default), 2 - regex and ignore case, 3 - literal and ignore case
+    // Note that json has some special characters like '\' should be escaped.
+    "permanent_highlight_keyword_color_mappings": [
+        {"keyword": "_UCHAR", "color": "support"},
+        {"keyword": "_UINT", "color": "support"},
+        {"keyword": "_SINT", "color": "support"},
+        {"keyword": "_UWORD", "color": "support"},
+        {"keyword": "_SWORD", "color": "support"},
+        {"keyword": "__direct", "color": "support"},
+        {"keyword": "_UCHAR_BIT", "color": "support"},
+        {"keyword": "_UINT_BIT", "color": "support"},
+        {"keyword": "_UWORD_CHAR", "color": "support"},
+        // {"keyword": "_UINT .*", "color": "support.function", "flag": 2},
+    ],
+
+}

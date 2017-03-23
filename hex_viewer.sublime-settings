@@ -1,0 +1,115 @@
+{
+    // Use sub notify if available
+    "use_sub_notify": false,
+
+    // Group bytes together by bits
+    // Valid Settings (8|16|32|64|128)
+    "group_bytes_by_bits" : 16,
+
+    // These are the valid bytes per line options
+    "valid_bytes_per_line" : [8, 10, 16, 24, 32, 48, 64, 128, 256, 512],
+
+    // Number of 8 bit bytes per line.
+    // See "valid_bytes_per_line" for valid options
+    "bytes_per_line" : 10,
+
+    // Use lowercase hex values.
+    "use_lowercase_hex": true,
+
+    // Use a custom font and/or font size in hex view.
+    // Use None to use the current Sublime Text font.
+    "custom_font" : "none",
+
+    // Use zero to use the current Sublime Text font size.
+    "custom_font_size" : 0,
+
+    // Show inspector panel
+    "inspector" : false,
+
+    // endian? (big|little)
+    "inspector_endian" : "big",
+
+    // Show inspector panel on hex view load and hide on hex view hide
+    "inspector_auto_show" : false,
+
+    // Treat files in hex syntax with proper format
+    // (usually .hex files; saved versions of hex output)
+    // as real hex views.  The following functionality will be omitted:
+    // hex toggle, editing, writing to file,
+    // and dynamic changing of bits and bytes functionality.
+    // Address searching, Hex inspector, etc. should work fine.
+    "enable_fake_hex_file": false,
+
+    // Approximate max byte selection.
+    // The highlighter will highlight individual selections until
+    // the max number of bytes is found.  The selection containing
+    // the maximum byte will still be finished even if it has more
+    // bytes than the max.
+    "highlight_max_bytes" : false,
+
+    // Maximum allowed byte size that HexViewer will parse
+    "max_file_size_kb": 50000.0,
+
+    // External Hex Viewer if max size is exceeded.
+    // Viewer should be the absolute path.
+    // Args is an array of command line arguments. Use ${FILE} for the file path.
+    "external_viewer": {
+        "viewer": "",
+        "args": ["${FILE}"]
+    },
+
+    // If the file is too large (as defined in the settings file via 'max_file_size_kb'),
+    // prompt the user with a dialog asking whether they would like to open the file internally anyways
+    // or use the default action (open in external viewer defined in 'external viewer' or terminate action
+    // if 'external_viewer' is not set or invalid).
+    "prompt_on_file_too_big": false,
+
+    //Enable highlight throttling
+    "highlight_throttle" : false,
+
+    // Scope? (Defined in theme files.)
+    // Examples: (keyword|string|number)
+    "highlight_scope" : "string",
+    "highlight_edit_scope": "keyword",
+
+    // Icon? (dot|circle|bookmark|cross|none)
+    "highlight_icon" : "none",
+    "highlight_edit_icon" : "none",
+
+    // Style? (solid|outline|underline|none)
+    "highlight_style" : "solid",
+    "highlight_edit_style" : "underline",
+
+    // Checksum algorithm default? (the default is what is applied to a file when saving)
+    // (mdc2|md4|md5|sha|sha1|sha224|sha256|sha384|sha512|ripemd160|crc32|adler32)
+    "hash_algorithm" : "md5",
+
+    // Enable checksum on save
+    "checksum_on_save" : false,
+
+    // Auto open binary files in hex viewer
+    // Detects if view has encoding set to 'Hexidecimal'.
+    // Addtionally it can use 'auto_open_patterns' below.
+    "auto_open" : false,
+
+    // Disable auto open based on 'Hexidecimal' encoding
+    "disable_auto_open_hex_encoding": false,
+
+    // Auto open patterns to open in hex viewer
+    "auto_open_patterns" : ["*.bin", "*.pyc","*.hex"],
+
+    // Inspector format strings: ints and unsigned ints
+    "inspector_integer_format": "%-12s:  %-22d",
+
+    // Inspector format strings: floating point decimals
+    "insepctor_float_format": "%-12s:  %-22e",
+
+    // Inspector format strings: double floating point decimal strings
+    "inspector_double_format": "%-12s:  %-22e",
+
+    // Inspector format strings: "NAN" and not enough bytes to show numbers "--"
+    "inspector_missing/bad_format": "%-12s:  %-22s",
+
+    // Binary number formatting
+    "inspector_binary_format": "%-12s:  %-22s"
+}

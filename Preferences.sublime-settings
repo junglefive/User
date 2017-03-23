@@ -1,0 +1,47 @@
+{
+	"color_scheme": "Packages/ChipseaAssembly/Chipsea Mac.tmTheme",
+	"default_encoding": "GBK",
+	"file_exclude_patterns":
+	[
+		"*.csuprj",
+		"*.csusln",
+		"*.csusuo",
+		"*.clcd",
+		"*.csuprj",
+		"*.list",
+		"*.conf",
+		"*.st",
+		"*.dat",
+		"*.lcd",
+		"*makefile",
+		"*.bak",
+		"*.obj",
+		"*.proj",
+		"*.data",
+		"*.ini",
+		"watch",
+		"watch_judge",
+		"watch_trig",
+		"*.txt",
+		"*.log"
+	],
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS"
+	],
+	"font_face": "Consolas",
+	"font_size": 14,
+	"highlight_line": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"line_padding_bottom": 0,
+	"line_padding_top": 0,
+	"show_encoding": true,
+	"show_line_endings": true,
+	"translate_tabs_to_spaces": true
+}

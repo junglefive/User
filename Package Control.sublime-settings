@@ -1,0 +1,31 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"BeyondCompare",
+		"ColorPick",
+		"Compare Side-By-Side",
+		"ConvertToUTF8",
+		"Cscope",
+		"CTags",
+		"File Navigator",
+		"FileBrowser",
+		"Git",
+		"Github Tools",
+		"HexViewer",
+		"Markdown Preview",
+		"MarkdownEditing",
+		"OmniMarkupPreviewer",
+		"Package Control",
+		"PackageDev",
+		"PackageResourceViewer",
+		"PlainTasks",
+		"Search Stack Overflow",
+		"Terminal",
+		"WordHighlight"
+	]
+}
