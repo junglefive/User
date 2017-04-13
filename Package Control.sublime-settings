@@ -1,12 +1,18 @@
 {
 	"bootstrapped": true,
+	"channels":
+	[
+		"https://packagecontrol.io/channel_v3.json",
+		"https://git.coding.net/junglefive/ChipseaAssembly.git"
+	],
 	"in_process_packages":
 	[
 	],
 	"installed_packages":
 	[
 		"AdvancedNewFile",
-		"BeyondCompare",
+		"ChannelRepositoryTools",
+		"ChipseaAssembly",
 		"ColorPick",
 		"Compare Side-By-Side",
 		"ConvertToUTF8",
@@ -15,17 +21,26 @@
 		"File Navigator",
 		"FileBrowser",
 		"Git",
+		"GitGutter",
 		"Github Tools",
 		"HexViewer",
-		"Markdown Preview",
-		"MarkdownEditing",
+		"MarkdownHighlighting",
 		"OmniMarkupPreviewer",
 		"Package Control",
 		"PackageDev",
 		"PackageResourceViewer",
 		"PlainTasks",
 		"Search Stack Overflow",
+		"SyncedSidebarBg",
 		"Terminal",
 		"WordHighlight"
+	],
+	"repositories":
+	[
+		"https://git.coding.net/junglefive/ChipseaAssembly.git",
+		"https://git.coding.net/junglefive/ChipseaAssembly.git",
+		"https://git.coding.net/junglefive/ChipseaAssembly.git",
+		"https://git.coding.net/junglefive/ChipseaAssembly.git",
+		"https://github.com/junglefive/ChipseaAssembly"
 	]
 }

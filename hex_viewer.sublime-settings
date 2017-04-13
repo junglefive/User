@@ -11,7 +11,7 @@
 
     // Number of 8 bit bytes per line.
     // See "valid_bytes_per_line" for valid options
-    "bytes_per_line" : 10,
+    "bytes_per_line" : 16,
 
     // Use lowercase hex values.
     "use_lowercase_hex": true,
