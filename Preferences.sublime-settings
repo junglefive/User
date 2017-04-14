@@ -1,5 +1,5 @@
 {
-	"color_scheme": "Packages/ChipseaAssembly/Chipsea Monokai.tmTheme",
+	"color_scheme": "Packages/ChipseaAssembly/Chipsea Mac.tmTheme",
 	"default_encoding": "GBK",
 	"file_exclude_patterns":
 	[
@@ -33,7 +33,7 @@
 		"CVS"
 	],
 	"font_face": "Consolas",
-	"font_size": 13,
+	"font_size": 12,
 	"highlight_line": true,
 	"ignored_packages":
 	[

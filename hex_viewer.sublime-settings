@@ -30,7 +30,7 @@
     "inspector_endian" : "big",
 
     // Show inspector panel on hex view load and hide on hex view hide
-    "inspector_auto_show" : false,
+    "inspector_auto_show" : true,
 
     // Treat files in hex syntax with proper format
     // (usually .hex files; saved versions of hex output)
@@ -90,10 +90,10 @@
     // Auto open binary files in hex viewer
     // Detects if view has encoding set to 'Hexidecimal'.
     // Addtionally it can use 'auto_open_patterns' below.
-    "auto_open" : false,
+    "auto_open" : true,
 
     // Disable auto open based on 'Hexidecimal' encoding
-    "disable_auto_open_hex_encoding": false,
+    "disable_auto_open_hex_encoding": true,
 
     // Auto open patterns to open in hex viewer
     "auto_open_patterns" : ["*.bin", "*.pyc","*.hex"],
