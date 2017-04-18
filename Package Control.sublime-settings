@@ -24,6 +24,9 @@
 		"Github Tools",
 		"Gitignore",
 		"HexViewer",
+		"InsertDate",
+		"Markdown Preview",
+		"Markdown Slideshow",
 		"MarkdownHighlighting",
 		"OmniMarkupPreviewer",
 		"Package Control",
@@ -33,6 +36,7 @@
 		"Search Stack Overflow",
 		"SyncedSidebarBg",
 		"Terminal",
+		"TortoiseSVN",
 		"WordHighlight"
 	],
 	"repositories":
