@@ -11,6 +11,9 @@
 	"installed_packages":
 	[
 		"AdvancedNewFile",
+		"Alignment",
+		"All Autocomplete",
+		"BracketHighlighter",
 		"ChannelRepositoryTools",
 		"ColorPick",
 		"Compare Side-By-Side",
@@ -34,6 +37,7 @@
 		"PackageResourceViewer",
 		"PlainTasks",
 		"Search Stack Overflow",
+		"SublimeAStyleFormatter",
 		"SyncedSidebarBg",
 		"Terminal",
 		"TortoiseSVN",

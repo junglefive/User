@@ -1,6 +1,7 @@
 {
 	"extensions":
 	[
-		"hex"
+		"h",
+		"c"
 	]
 }

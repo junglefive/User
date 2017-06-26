@@ -90,7 +90,7 @@
     // Auto open binary files in hex viewer
     // Detects if view has encoding set to 'Hexidecimal'.
     // Addtionally it can use 'auto_open_patterns' below.
-    "auto_open" : true,
+    "auto_open" : false,
 
     // Disable auto open based on 'Hexidecimal' encoding
     "disable_auto_open_hex_encoding": true,
