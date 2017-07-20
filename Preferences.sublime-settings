@@ -32,8 +32,8 @@
 		".hg",
 		"CVS"
 	],
-	"font_face": "YaHei Consolas Hybrid",
-	"font_size": 9,
+	"font_face": "Consolas",
+	"font_size": 11,
 	"highlight_line": true,
 	"ignored_packages":
 	[
@@ -44,5 +44,6 @@
 	"show_encoding": true,
 	"show_line_endings": true,
 	"translate_tabs_to_spaces": true,
-	"word_wrap": false
+	"word_wrap": false,
+	"trim_trailing_white_space_on_save": true,
 }
