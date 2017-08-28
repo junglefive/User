@@ -1,6 +1,7 @@
 {
 	"extensions":
 	[
-		"hex"
-	]
+		"hex",
+	],
+    "fallback_encoding": "GBK",
 }
