@@ -1,7 +1,7 @@
 // Your settings for MarkdownLivePreview. See the default file to see the different options.
 {
         // As soon as you open a markdown file, it opens the window preview
-    "markdown_live_preview_on_open": true,
+    "markdown_live_preview_on_open": false,
 
     // If an image starts with one of those strings, then it will be loaded from internet
     "load_from_internet_when_starts": ["http://", "https://"],
